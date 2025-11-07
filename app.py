@@ -9,7 +9,7 @@ import pandas as pd
 import pickle
 
 # --- Load trained model ---
-model_filename = "C:/Users/user/Desktop/25RP19099/25RP19099.sav"
+model_filename = "/25RP19099.sav"
 with open(model_filename, "rb") as file:
     model = pickle.load(file)
 
@@ -61,3 +61,4 @@ if st.button("🔍 Predict Crop Yield"):
 
 # Footer
 st.caption("Created by Esther — Deployed using Streamlit 🚀")
+
